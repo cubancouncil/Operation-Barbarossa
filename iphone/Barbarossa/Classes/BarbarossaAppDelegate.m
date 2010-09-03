@@ -7,19 +7,27 @@
 //
 
 #import "BarbarossaAppDelegate.h"
+#import "RootViewController.h"
 
 @implementation BarbarossaAppDelegate
 
 @synthesize window;
 
-
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+	NSLog(@"Hello applicationDidFinishLaunching");
+    [window makeKeyAndVisible];
     
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+    NSLog(@"Hello didFinishLaunchingWithOptions");
     // Override point for customization after application launch.
 	
+    rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    [window addSubview:[rootViewController view]];
     [window makeKeyAndVisible];
 	
 	return YES;

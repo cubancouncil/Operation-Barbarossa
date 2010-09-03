@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class RootViewController;
+
 @interface BarbarossaAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+    RootViewController *rootViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
