@@ -3,11 +3,11 @@
 //  Barbarossa
 //
 //  Created by Chris Forrette on 9/3/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright Cuban Council 2010. All rights reserved.
 //
 
 #import "BarbarossaAppDelegate.h"
-
+#import "HomeViewController.h"
 
 @implementation BarbarossaAppDelegate
 
@@ -21,7 +21,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+    
+    // HomeViewController *homeView = [[HomeViewController alloc] init];
+    // [homeView setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
+    // [homeView presentModalViewController:tabBarController animated:NO];
+    
     // Add the tab bar controller's view to the window and display.
     [window addSubview:tabBarController.view];
     [window makeKeyAndVisible];

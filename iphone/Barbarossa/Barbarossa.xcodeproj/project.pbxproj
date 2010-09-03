@@ -22,6 +22,9 @@
 		837CE789123184DD00749EB3 /* LocationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837CE787123184DD00749EB3 /* LocationsView.xib */; };
 		837CE78F123184ED00749EB3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE78D123184ED00749EB3 /* HomeViewController.m */; };
 		837CE790123184ED00749EB3 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837CE78E123184ED00749EB3 /* HomeView.xib */; };
+		837CE7F01231946100749EB3 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE7EF1231946100749EB3 /* LocationDataController.m */; };
+		837CE7F8123196E300749EB3 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE7F7123196E300749EB3 /* LocationDetailViewController.m */; };
+		837CE7FD1231973900749EB3 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE7FC1231973900749EB3 /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,12 @@
 		837CE78C123184ED00749EB3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
 		837CE78D123184ED00749EB3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		837CE78E123184ED00749EB3 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		837CE7EE1231946100749EB3 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationDataController.h; path = ../LocationDataController.h; sourceTree = "<group>"; };
+		837CE7EF1231946100749EB3 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationDataController.m; path = ../LocationDataController.m; sourceTree = "<group>"; };
+		837CE7F6123196E300749EB3 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationDetailViewController.h; path = ../LocationDetailViewController.h; sourceTree = "<group>"; };
+		837CE7F7123196E300749EB3 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationDetailViewController.m; path = ../LocationDetailViewController.m; sourceTree = "<group>"; };
+		837CE7FB1231973900749EB3 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ../Location.h; sourceTree = "<group>"; };
+		837CE7FC1231973900749EB3 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Barbarossa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Barbarossa-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +76,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				837CE7EE1231946100749EB3 /* LocationDataController.h */,
+				837CE7EF1231946100749EB3 /* LocationDataController.m */,
+				837CE7F6123196E300749EB3 /* LocationDetailViewController.h */,
+				837CE7F7123196E300749EB3 /* LocationDetailViewController.m */,
+				837CE7FB1231973900749EB3 /* Location.h */,
+				837CE7FC1231973900749EB3 /* Location.m */,
 				837CE77E123184CF00749EB3 /* NearMeViewController.h */,
 				837CE77F123184CF00749EB3 /* NearMeViewController.m */,
 				837CE785123184DD00749EB3 /* LocationsViewController.h */,
@@ -198,6 +213,9 @@
 				837CE781123184CF00749EB3 /* NearMeViewController.m in Sources */,
 				837CE788123184DD00749EB3 /* LocationsViewController.m in Sources */,
 				837CE78F123184ED00749EB3 /* HomeViewController.m in Sources */,
+				837CE7F01231946100749EB3 /* LocationDataController.m in Sources */,
+				837CE7F8123196E300749EB3 /* LocationDetailViewController.m in Sources */,
+				837CE7FD1231973900749EB3 /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
