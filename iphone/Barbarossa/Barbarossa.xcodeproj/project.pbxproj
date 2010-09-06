@@ -11,8 +11,6 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
-		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		837CE781123184CF00749EB3 /* NearMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE77F123184CF00749EB3 /* NearMeViewController.m */; };
@@ -24,6 +22,10 @@
 		837CE7F01231946100749EB3 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE7EF1231946100749EB3 /* LocationDataController.m */; };
 		837CE7F8123196E300749EB3 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE7F7123196E300749EB3 /* LocationDetailViewController.m */; };
 		837CE7FD1231973900749EB3 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE7FC1231973900749EB3 /* Location.m */; };
+		837CE8631231C38D00749EB3 /* CitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE8611231C38D00749EB3 /* CitiesViewController.m */; };
+		837CE8641231C38D00749EB3 /* CitiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837CE8621231C38D00749EB3 /* CitiesView.xib */; };
+		837CE86F1231C48700749EB3 /* CitiesDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE86E1231C48700749EB3 /* CitiesDataController.m */; };
+		837CE8741231C54900749EB3 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 837CE8731231C54900749EB3 /* City.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,6 @@
 		1D3623250D0F684500981E51 /* BarbarossaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarbarossaAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Barbarossa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbarossa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
-		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* Barbarossa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbarossa_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -53,6 +53,13 @@
 		837CE7F7123196E300749EB3 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationDetailViewController.m; path = ../LocationDetailViewController.m; sourceTree = "<group>"; };
 		837CE7FB1231973900749EB3 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ../Location.h; sourceTree = "<group>"; };
 		837CE7FC1231973900749EB3 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
+		837CE8601231C38D00749EB3 /* CitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesViewController.h; sourceTree = "<group>"; };
+		837CE8611231C38D00749EB3 /* CitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesViewController.m; sourceTree = "<group>"; };
+		837CE8621231C38D00749EB3 /* CitiesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CitiesView.xib; path = Classes/CitiesView.xib; sourceTree = "<group>"; };
+		837CE86D1231C48700749EB3 /* CitiesDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesDataController.h; sourceTree = "<group>"; };
+		837CE86E1231C48700749EB3 /* CitiesDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesDataController.m; sourceTree = "<group>"; };
+		837CE8721231C54900749EB3 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		837CE8731231C54900749EB3 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Barbarossa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Barbarossa-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +94,12 @@
 				837CE78D123184ED00749EB3 /* HomeViewController.m */,
 				1D3623240D0F684500981E51 /* BarbarossaAppDelegate.h */,
 				1D3623250D0F684500981E51 /* BarbarossaAppDelegate.m */,
+				837CE8601231C38D00749EB3 /* CitiesViewController.h */,
+				837CE8611231C38D00749EB3 /* CitiesViewController.m */,
+				837CE86D1231C48700749EB3 /* CitiesDataController.h */,
+				837CE86E1231C48700749EB3 /* CitiesDataController.m */,
+				837CE8721231C54900749EB3 /* City.h */,
+				837CE8731231C54900749EB3 /* City.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,11 +136,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				837CE8621231C38D00749EB3 /* CitiesView.xib */,
 				837CE780123184CF00749EB3 /* NearMeView.xib */,
 				837CE787123184DD00749EB3 /* LocationsView.xib */,
 				837CE78E123184ED00749EB3 /* HomeView.xib */,
-				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Barbarossa-Info.plist */,
 			);
@@ -190,11 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
-				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
 				837CE782123184CF00749EB3 /* NearMeView.xib in Resources */,
 				837CE789123184DD00749EB3 /* LocationsView.xib in Resources */,
 				837CE790123184ED00749EB3 /* HomeView.xib in Resources */,
+				837CE8641231C38D00749EB3 /* CitiesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +224,9 @@
 				837CE7F01231946100749EB3 /* LocationDataController.m in Sources */,
 				837CE7F8123196E300749EB3 /* LocationDetailViewController.m in Sources */,
 				837CE7FD1231973900749EB3 /* Location.m in Sources */,
+				837CE8631231C38D00749EB3 /* CitiesViewController.m in Sources */,
+				837CE86F1231C48700749EB3 /* CitiesDataController.m in Sources */,
+				837CE8741231C54900749EB3 /* City.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

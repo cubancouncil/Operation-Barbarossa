@@ -1,21 +1,21 @@
 //
-//  Location.m
+//  City.m
 //  Barbarossa
 //
 //  Created by Chris Forrette on 9/3/10.
 //  Copyright 2010 Cuban Council. All rights reserved.
 //
 
-#import "Location.h"
+#import "City.h"
 
 
-@implementation Location
+@implementation City
 
 @synthesize name;
 
 - (void)dealloc {
     [name release];
-    [super dealloc];
+    [super release];
 }
 
 @end

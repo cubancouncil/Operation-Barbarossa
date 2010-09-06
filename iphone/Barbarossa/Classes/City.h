@@ -1,5 +1,5 @@
 //
-//  Location.h
+//  City.h
 //  Barbarossa
 //
 //  Created by Chris Forrette on 9/3/10.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Location : NSObject {
+@interface City : NSObject {
     NSString *name;
 }
 

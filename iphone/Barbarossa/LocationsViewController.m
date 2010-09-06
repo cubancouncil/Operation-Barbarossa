@@ -66,7 +66,7 @@
     
     // Get the object to display and set the value in the cell.
     Location *locationAtIndex = [locationDataController objectInListAtIndex:indexPath.row];
-    cell.textLabel.text = locationAtIndex.title;
+    cell.textLabel.text = locationAtIndex.name;
     return cell;
 }
 

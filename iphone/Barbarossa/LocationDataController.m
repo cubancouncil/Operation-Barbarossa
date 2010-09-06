@@ -60,17 +60,17 @@
     Location *location;
     
 	location = [[Location alloc] init];
-	location.title = @"Portland";
+	location.name = @"Portland";
 	[locList addObject:location];
     [location release];
     
 	location = [[Location alloc] init];
-	location.title = @"New York";
+	location.name = @"New York";
 	[locList addObject:location];
     [location release];
     
 	location = [[Location alloc] init];
-	location.title = @"Chicago";
+	location.name = @"Chicago";
 	[locList addObject:location];
     [location release];
     
