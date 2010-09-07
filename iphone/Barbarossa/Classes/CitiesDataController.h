@@ -18,7 +18,7 @@
 @property (nonatomic, copy, readwrite) NSMutableArray *citiesList;
 
 - (unsigned)countOfCitiesList;
-- (City *)objectInCitiesListAtIndex:(unsigned)theIndex;
+- (City *)objectInListAtIndex:(unsigned)theIndex;
 - (void)createDemoData;
 
 @end

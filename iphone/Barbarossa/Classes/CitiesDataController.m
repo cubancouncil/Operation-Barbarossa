@@ -15,10 +15,23 @@
 
 - (id)init {
     if (self = [super init]) {
-        NSLog(@"DEMO DATA!");
         [self createDemoData];
-    } else {
-        NSLog(@"NO DEMO DATA");
+        
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://127.0.0.1/api/cities/"]
+                                                 cachePolicy:NSURLRequestUseProtocolCachePolicy
+                                             timeoutInterval:60.0];
+        NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+        
+        if (conn) {
+            NSString *receivedData = [[NSMutableData data] retain];
+            [receivedData release];
+            NSLog(@"Data!");
+        } else {
+            NSLog(@"No data!");
+        }
+
+        
+        //NSLog(cities);
     }
     return self;
 }
@@ -34,7 +47,7 @@
     return [citiesList count];
 }
 
-- (City *)objectInCitiesListAtIndex:(unsigned)theIndex {
+- (City *)objectInListAtIndex:(unsigned)theIndex {
     return [citiesList objectAtIndex:theIndex];
 }
 

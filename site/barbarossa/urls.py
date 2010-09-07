@@ -1,10 +1,13 @@
 from django.conf.urls.defaults import *
 
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
+    
+    (r'^api/', include('barbarossa.api.urls')),
+    
     # Example:
     # (r'^barbarossa/', include('barbarossa.foo.urls')),
 
@@ -13,5 +16,5 @@ urlpatterns = patterns('',
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    # (r'^admin/', include(admin.site.urls)),
+    (r'^admin/', include(admin.site.urls)),
 )

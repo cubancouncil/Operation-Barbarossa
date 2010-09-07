@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @class LocationDataController;
+@class City;
 
 @interface LocationsViewController : UITableViewController {
     LocationDataController *locationDataController;
+    City *city;
 }
 
 @property (nonatomic, retain) LocationDataController *locationDataController;
+@property (nonatomic, retain) City *city;
 
 @end

@@ -13,6 +13,7 @@
 @implementation LocationsViewController
 
 @synthesize locationDataController;
+@synthesize city;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -24,12 +25,13 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.locationDataController = [[LocationDataController alloc] init];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -49,7 +51,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Only one section, so return the number of items in the list.
-    NSLog(locationDataController);
     return [locationDataController countOfList];
 }
 

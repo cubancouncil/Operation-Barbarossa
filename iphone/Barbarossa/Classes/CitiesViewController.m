@@ -8,6 +8,7 @@
 
 #import "CitiesViewController.h"
 #import "CitiesDataController.h"
+#import "LocationsViewController.h"
 #import "City.h"
 
 @implementation CitiesViewController
@@ -84,7 +85,7 @@
     
     // Configure the cell...
     
-    City *cityAtIndex = [citiesDataController objectInCitiesListAtIndex:indexPath.row];
+    City *cityAtIndex = [citiesDataController objectInListAtIndex:indexPath.row];
     cell.textLabel.text = cityAtIndex.name;
     
     return cell;
@@ -135,6 +136,13 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    LocationsViewController *locationsViewController = [[LocationsViewController alloc] init];
+    locationsViewController.city = [citiesDataController objectInListAsIndex:indexPath.row];
+    
+    [[self navigationController] pushViewController:locationsViewController animated:YES];
+    [locationsViewController release];
+    
     // Navigation logic may go here. Create and push another view controller.
 	/*
 	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
